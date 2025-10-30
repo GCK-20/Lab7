@@ -1,0 +1,117 @@
+/* === Importar fuente Six Caps desde Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+
+/* reseteo de estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+}
+
+/* === Fondo general === */
+body {
+  background-image: url('../images/art-background4.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+/* === Encabezado === */
+header {
+  background-color: rgba(255, 255, 255, 0.9); /* Transparencia y color de fondo*/
+  padding: 1em;
+  text-align: center;
+  width: 400px;
+  margin: auto 2em auto 5em;
+  border-radius: 0;
+}
+
+
+
+header h1 {
+  font-family: 'Six Caps', Arial, sans-serif;
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin-bottom: 0.3em;
+}
+
+header h2 {
+  font-size: 1em;
+  font-style: italic;
+  color: #0c0c0c;
+}
+
+/* === Contenedor principal === */
+article {
+  background-color: rgba(255, 255, 255, 0.2); /* Semitransparente */
+  width: 500px;
+  height: 230px;
+  margin: 6em auto 2em 6em;
+  padding: 0em;
+  border-radius: 0; /* Sin bordes redondeados */
+  font-family: Arial, sans-serif;
+}
+
+/* === Encabezado "En Construcción" === */
+article h2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  border-radius: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* === Texto Nuestro sitio web === */
+article p {
+    font-family: Amasis MT Pro Black;
+    font-size: 1.5em;
+    font-weight: bold;
+     color: #222; /* tono oscuro pero suave */
+    font-style: bold;
+    margin: 0.5em 1em 0 1em;
+}
+
+/* === Línea final con fecha === */
+article p:last-of-type {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 0;
+  margin-top: 1em;
+  margin-right: 8em;
+  margin-bottom: 0.5em;
+}
+
+/* === Footer con botón e íconos === */
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto;
+    text-align: left;
+}
+
+footer a {
+  color: #0078d7; /* azul tipo enlace */
+  text-decoration: underline dotted;
+  font-size: 1em;
+  padding: 1.5em;
+  margin-right: 1.5em;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+footer img {
+  width: 16px;
+  height: 16px;
+  margin: 0 4px;
+  vertical-align: middle;
+}
